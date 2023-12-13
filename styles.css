@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #0044ff;
+    width: 100vw;
+    height: 15vh;
+}
+
+.nav-header {
+    background-color: #2321bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    height: 30vh;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#navbar {
+    background-color: #2321bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

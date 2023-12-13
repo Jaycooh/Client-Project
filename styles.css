@@ -1,31 +1,30 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 }
 
 .logo-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     background-color: #0044ff;
     width: 100vw;
     height: 15vh;
+    top: 0;
 }
 
-.nav-header {
+nav {
     background-color: #2321bd;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    padding: 10px 14px;
-    height: 30vh;
-}
-
-nav {
-    display: flex;
+    height: 10vh;
+    width: 100vw;
 }
 
 .logo {
@@ -35,9 +34,32 @@ nav {
     margin-top: 10px;
 }
 
-#navbar {
-    background-color: #2321bd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body>header>nav{
+    flex-basis: 100%;
+    text-align: center;
 }
+
+body>header>nav>a{
+    margin:.5rem;
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 800;
+    text-shadow: 1px .5px #006837;
+    padding: .2rem .5rem;
+    background-color: #9e005d;
+    border:2px solid #0044ff;
+    border-radius: 10px;
+    position: relative;
+}
+
+main {
+    margin-top: 25vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* colors: red: 9e005d, blue: 0000ff, green: 006837 */

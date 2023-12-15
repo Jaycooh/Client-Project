@@ -57,10 +57,20 @@ main {
     margin-top: 25vh;
 }
 
-h1 {
+h1, h2 {
     color: white;
     text-align: center;
+    margin: 0;
 }
+
+.card-container {
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: #9e005d;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 /* colors: red: 9e005d, blue: 0000ff, green: 006837 */
 /* cool background colors: #632525; */

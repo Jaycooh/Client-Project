@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.logo-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #0044ff;
+    width: 100vw;
+    height: 15vh;
+    top: 0;
+}
+
+nav {
+    background-color: #2321bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+body>header>nav{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+body>header>nav>a{
+    margin:.5rem;
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 800;
+    text-shadow: 1px .5px #006837;
+    padding: .2rem .5rem;
+    background-color: #9e005d;
+    border:2px solid #0044ff;
+    border-radius: 10px;
+    position: relative;
+}
+
+main {
+    margin-top: 25vh;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px .5px black;
+}
+
+.card-container {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #9e005d;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main>img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: calc(100% - 2rem);
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-container-p {
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: #7b9eff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+@media (min-width: 850px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main>img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 48%; 
+        margin: 1%;
+    }
+
+    .card-container,
+    .card-container-p {
+        flex-basis: 100%;
+        margin: 1rem;
+    }
+}
+
+/* colors: red: 9e005d, blue: 0000ff, green: 006837 */
+/* cool background colors: #632525; */
